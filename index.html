@@ -4,10 +4,499 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
+    <title>Commvault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="col-md-8 py-5 px-3 mx-auto">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 logo">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none float-lg-start">
+              <img loading=lazy src="assets/img/logo.png" alt="Comvault Logo" width="229" height="59" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HERO -->
+    <section class="bg-color-purple hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Protect and <br class="br">Recover from <br class="br">Threats</h1>
+            <div class="sub-title">
+              Campaign featuring Ransomware <br class="br">
+              Protection, Detection and Recovery
+            </div>
+              <div class="call-to-action">
+                <a href="#" class="btn mr-3" target="_blank">Download the Playbook</a>
+                <a href="#" class="btn" target="_blank">Execute Campaign</a>
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="assets/img/reckoning.png" class="img-fluid" alt="Reckoning on Ransomware" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg sub-nav ">
+      <button class="navbar-toggler w-100 text-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">        
+          <li class="nav-item"><a href="#opportunity">THE COMMVAULT Opportunity</a></li>
+          <li class="nav-item"><a href="#playbook">PLAYBOOK</a></li>
+          <li class="nav-item"><a href="#assets">CAMPAIGN ASSETS</a></li>
+          <li class="nav-item"><a href="#foryou">WHAT's IN IT FOR YOU</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- <section class="bg-color-white unique-innovation">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="assets/img/cyber-losses-2.png" class="img-fluid" alt="Reckoning on Ransomware" />
+          </div>
+          <div class="col-lg-7">
+            <h2>The Need for Unique Innovation in Ransomware Protection</h2>
+           <p>Did you know that the global cybersecurity market is expected to grow by $345.4 billion by 2026? In addition, losses from cybercrime globally was $1 trillion in 2020 and is expected to top $6 trillion by the end of 2021. 
+
+            Now, more than ever, the need for your customers to ensure their data, devices, and networks stay safe is critical to business success. With Commvault’s Ransomware Protection Solutions, you can help customers reduce their risk for cyber-attacks and strengthen data security to ensure your business is secure.</p>
+          </div>
+         
+        </div>
+      </div>
+    </section> -->
+
+    <section class="the-threat">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>The Threat to Your Customers Is Real</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 threat-box">
+            <img loading=lazy src="/assets/img/threat1.jpg" alt="485% increase in attacks" />
+            <div class="title">
+              In 2020, ransomware attacks increased 485% over 2019.<sup>1</sup>
+            </div>
+          </div>
+          <div class="col-lg-4 threat-box">
+            <img loading=lazy src="/assets/img/threat2.jpg" alt="1.85 Million in 2020" />
+            <div class="title">
+              The average cost of rectifying a ransomware attack was $1.85 million in 2020.<sup>2</sup>
+            </div>
+          </div>
+          <div class="col-lg-4 threat-box">
+            <img loading=lazy src="/assets/img/threat3.jpg" alt="64% Feel at Risk of Attack" />
+            <div class="title">
+              64% of surveyed CISOs feel at risk of suffering a material cyber attack in the next 12 months.<sup>3</sup>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="opportunity" class="bg-color-gray help-customers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>The Commvault Opportunity: A unique approach to Ransomware protection, detection and recovery</h2>
+            <div class="info">
+              With Commvault’s Threat Protection and Recovery Solutions, you can help customers reduce their risk for cyber-attacks and 
+              strengthen data security to ensure your business is secure. <a href="#" target="_blank">Gartner</a> highlights Commvault’s unique innovation and 
+              differentiation to provide customers industry-leading ransomware protection and recovery solutions.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Your customers will be able to:</h3>
+        </div>
+        <div class="row help-grid border-bottom">
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/protect.png" class="img-fluid" alt="Protect" /></div>
+            <h4 class="title">Protect</h4>
+            <p>Protect the most important assets including applications, databases, virtual machines, and large file systems, anywhere.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/secure.png" class="img-fluid" alt="Secure" /></div>
+            <h4 class="title">Secure</h4>
+            <p>Secure and expand backup infrastructure capabilities to ensure data is accessible and actionable.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/monitor.png" class="img-fluid" alt="Monitor" /></div>
+            <h4 class="title">Monitor</h4>
+            <p>Monitor all types of risks and threats and enable recovery quickly if networks and systems are hit.</p>
+          </div>
+        </div>
+       
+        <div class="row help-grid">
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/reduce.png" class="img-fluid" alt="Reduce" /></div>
+            <h4 class="title">Reduce</h4>
+            <p>Reduce the available attack surface to minimize risk and combine threat prevention with hardware-independent immutability and privileged access management.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/detect.png" class="img-fluid" alt="Detect" /></div>
+            <h4 class="title">Detect</h4>
+            <p>Detect unusual behavior in advance to avoid costly downtime with a threat monitoring framework that  monitors the environment and takes preventive action.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="img-icon"><img src="assets/img/minimize.png" class="img-fluid" alt="Minimize" /></div>
+            <h4 class="title">Minimize</h4>
+            <p>Minimize business disruption with “threat erase” technology that cleans malware from backup copies, halts backup copy data aging, and isolates security-impacted.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="assets">
+      <div class="container ransomware-protection">
+        <div class="row">
+          <div id="playbook" class="col-lg-12">
+
+            <h2>Start the Ransomware Protection and Recovery Conversation.</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="/assets/img/protect-and-recover.jpg" class="img-fluid mt-n4" alt="Protect and Recover" />
+          </div>
+          <div class="col-lg-6">
+            <p>This interactive playbook provides details on Commvault threat 
+              protection and recovery solutions, as well as all the benefits 
+              and resources available to you as a Commvault partner. Access 
+              partner benefits, products, and solutions, as well as training 
+              and sales plays to grow your business. Gain a complete understanding 
+              of the Protect & Recover campaign, including messaging, assets, and 
+              a campaign builder.</p>
+              <div class="call-to-action pt-4">
+                <a href="#" class="btn" target="_blank">Download the Playbook</a>                
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="pt-5 pb-5 mt-5 mb-5">Go to Market Fast. Start Building Your Pipeline.</h2>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="/assets/img/stay-ahead.jpg" class="img-fluid mt-n4" alt="Protect and Recover" />
+          </div>
+          <div class="col-lg-6">
+            <p>The Protect and Recover from Threats Campaign-in-a-Box 
+              gives you all the materials you need to launch your own 
+              Ransomware campaign. You will receive a nurture email series, 
+              landing pages, downloadable assets, social media posts, 
+              sales decks, and tools to help you build awareness, drive 
+              leads, and support the sales process for Commvault threat 
+              protection and recovery solutions.</p>
+              <div class="call-to-action pt-4">
+                <a href="#" class="btn" target="_blank">Download the Playbook</a>                
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordions -->
+      <div id="foryou" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Accordion -->
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0"> 
+                    <button class="accordion-button btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img loading=lazy src="assets/img/icon-check.png" alt="What's in it for you" /> WHAT'S IN IT FOR YOU? 
+                    </button>
+                  </h5>
+                </div>
+              </div> 
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="title">Video</div>
+                      <div class="card-link">
+                        <a href="#" target="_blank">Protect and Recover - Campaign Overview Video</a>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                      <div class="title">PDF</div>
+                      <div class="card-link">
+                        <a href="#" target="_blank">Protect and Recover - Campaign At-A-Glance</a>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                      <div class="title">One Pager</div>
+                      <div class="card-link">
+                        <a href="#" target="_blank">Ransomware Protection and Recovery Offerings One Pager Overview</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <!-- Accordion  -->
+        <div id="accordion2">
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="accordion-button btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <img loading=lazy src="assets/img/icon-gear.png" alt="Training and Enablement" /> TRAINING & ENABLEMENT
+                </button>
+              </h5>
+            </div>
+          </div> 
+
+          <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion2">
+            <div class="card-body container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="title">Training Courses</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Introducing New Commvault Services</a>
+                    <a href="#" target="_blank">Monetizing Ransomware Opportunities</a>
+                    <a href="#" target="_blank">Commvault Readiness Solutions</a>
+                    <a href="#" target="_blank">Security and Ransomware</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>   
+        <!-- Accordion 3 -->
+        <div id="accordion3">
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="accordion-button btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  <img loading=lazy src="assets/img/icon-announce.png" alt="Demand Generation" /> Demand Generation
+                </button>
+              </h5>
+            </div>
+          </div> 
+
+          <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion3">
+            <div class="card-body container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="title">Email</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Protect and Recover - Partner Email Nurture </a>
+                  </div>
+
+                  <div class="title">Social</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Protect and Recover - Partner Social Posts</a>
+                  </div>
+
+                  <div class="title">Display</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Protect and Recover - Partner Banner Ads</a>
+                  </div>
+
+
+                </div>
+
+                <div class="col-lg-4">
+               
+                  <div class="title">Shareables</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Protect and Recover - Infographic
+                    </a>
+                    <a href="#" target="_blank">Protect and Recover - Shareables Gallery</a>
+                  </div>
+
+                  <div class="title">Presentations</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Commvault Ransomware Protection and Response Services presentation</a>
+                    <a href="#" target="_blank">Ransomware Protection and Recovery Offerings
+                    </a>
+                    <a href="#" target="_blank">Protect and Recover from Ransomware</a>
+                  </div>
+
+                                    
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="title">Videos</div>
+                  <div class="card-link">
+                    <a href="#" target="_blank">Lightboard: Introduction to Commvault’s ransomware defense</a>
+                    <a href="#" target="_blank">Ransomware attack and recovery demo
+                    </a>
+                    <a href="#" target="_blank">You Are in Control: Securing your data management environment with Commvault</a>
+                  </div>
+
+                  
+
+                  
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What's In It For You -->
+    <section class="bg-color-white whats-in-it">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <h2 class="text-green">What’s in it for you</h2>
+          </div>
+          <div class="col-lg-6 offset-lg-2">
+            <p class="info">
+            From shortening your sales cycle and increasing deal size to
+            deepening customer relationships and becoming a trusted advisor, 
+            Commvault helps you grow your business and capitalize on the 
+            significant cybersecurity opportunity. With Commvault, you can:
+            </p>
+          </div>
+        </div>
+        <div class="row mb-5">
+         <div class="col-lg-6">
+           <img src="assets/img/up-dlr.jpg" class="img-fluid" alt="What's in it for me" width="534" height="510" />
+         </div>
+         <div class="col-lg-6">
+
+          <div class="row biz-opps">
+            <div class="col-lg-6">
+              <h3 class="title">Drive <br class="br">
+                Profitability</h3>
+              <p class="border-bottom">Our new ransomware protection solutions offer you cross-selling and upselling opportunities with flexible subscription prices aligned with market rates.</p>
+            </div>
+           
+            <div class="col-lg-6">
+              <h3 class="title">Increase Your <br class="br">
+                Deal Size</h3>
+              <p class="border-bottom">
+                Build the services conversation early in customer engagement and pave the path towards future expansion of portfolio opportunities.</p>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="title">Improve Customer <br class="br">
+                Experience</h3>
+              <p class="border-bottom">Commvault Ransomware Protection and Recovery Offerings let your customers own flexibility in data protection. Did you know even if your customer isn’t using our solution, we’d still help in an attack?</p>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="title">Maximize Financial <br class="br">
+                Incentives</h3>
+              <p class="border-bottom">Multiply your earnings with volume, growth, and new customer rebates. Plus, net new logos seller incentives apply.</p>
+            </div>
+           
+            
+  
+          </div>
+
+
+         </div>
+        </div>
+       
+       
+        
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid social">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-5"><a href="https://www.linkedin.com/showcase/commvault-partner-advantage" target="_blank"><img src="/assets/img/white-linkedin.svg" />Follow Commvault Partner Advantage on LinkedIn</a></div>
+          <div class="col-lg-3"><a href="https://twitter.com/commvault"><img src="/assets/img/white-twitter.svg" target="_blank" />Follow us on Twitter</a></div>
+          <div class="col-lg-4"><a href="https://partners.commvault.com/PRM_Blog"><img src="/assets/img/white-blog.svg" target="_blank" />Read our Blog</a></div>
+        </div>
+      </div>
+    </div>
+    <nav class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-xs-12 col-sm-3">
+            <ul>
+                <li><a href="https://www.commvault.com/" target="_blank"><strong>Commvault<sup>®</sup> Software</strong></a></li>
+                <li><a href="https://www.commvault.com/solutions" target="_blank">Solutions</a></li>
+                <li><a href="https://www.commvault.com/solutions/by-function" target="_blank">Features</a></li>
+                <li><a href="https://www.commvault.com/solutions/Enterprise-Applications" target="_blank">Enterprise Applications</a></li>
+                <li><a href="https://www.commvault.com/solutions/specialized-industries" target="_blank">Specialized Industries</a></li>
+                <li><a href="https://www.commvault.com/solutions/by-topic" target="_blank">Business Value</a></li>
+                <li><a href="https://www.commvault.com/how-to-buy" target="_blank">Licensing</a></li>
+                <li><a href="https://www.commvault.com/how-to-buy" target="_blank">Switching Made Simple</a></li>
+                <li><a href="https://www.commvault.com/demos-and-trials" target="_blank">Webinars</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-xs-12 col-sm-3">
+            <ul>
+                <li><a href="https://www.commvault.com/services-and-support" target="_blank"><strong>Services &amp; Support</strong></a></li>
+                <li><a href="https://www.commvault.com/services-and-support/consulting-services" target="_blank">Consulting Services</a></li>
+                <li><a href="https://www.commvault.com/services-and-support/professional-services" target="_blank">Professional Services</a></li>
+                <li><a href="https://services.commvault.com/Education" target="_blank">Education Services</a></li>
+                <li><a href="https://services.commvault.com/Support" target="_blank">Support Services</a></li>
+                <li><a href="https://services.commvault.com/ROMS" target="_blank">ROMS<sup>®</sup></a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-xs-12 col-sm-3">
+            <ul>
+                <li><a href="https://www.commvault.com/partners" target="_blank"><strong>Partners</strong></a></li>
+                <li><a href="https://www.commvault.com/partners/find-a-partner" target="_blank">Find a Partner</a></li>
+                <li><a href="https://www.commvault.com/partners/become-a-partner" target="_blank">Become a Partner</a></li>
+                <li><a href="../">For Partners</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-xs-12 col-sm-3">
+            <ul>
+                <li><a href="https://www.commvault.com/about-us" target="_blank"><strong>About Us</strong></a></li>
+                <li><a href="https://www.commvault.com/about-us/history" target="_blank">History</a></li>
+                <li><a href="https://www.commvault.com/about-us/leadership" target="_blank">Executive Management</a></li>
+                <li><a href="https://www.commvault.com/events" target="_blank">Events</a></li>
+                <li><a href="https://www.commvault.com/demos-and-trials" target="_blank">Webinars</a></li>
+                <li><a href="https://www.commvault.com/about-us/careers" target="_blank">Careers</a></li>
+                <li><a href="/PRM_ContactUs">Contact Us</a></li>
+                <li><a href="https://ir.commvault.com/" target="_blank">Investor Relations</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+  </nav>
+
+  <div class="container crl">
+    <div class="row">
+      <div class="col-lg-3">
+        <img loading=lazy src="/assets/img/cmvt-logo.png" alt="Commvault Logo" class="img-fluid" width="170" height="37" />
+      </div>
+      <div class="col-lg-3 offset-lg-6 copyright">
+        Copyright &copy; 2021 Commvault | All Rights Reserved. <br>
+        <a href="https://www.commvault.com/legal-notices" target="_blank">Legal Notices</a> | <a href="https://www.commvault.com/legal-notices/trademarks" target="_blank">Trademarks</a>                | <a href="https://www.commvault.com/privacy-policy" target="_blank">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+
+    </footer>
+
+
+    <!-- <div class="col-md-8 py-5 px-3 mx-auto">
 
       <header class="pb-3 mb-5 border-bottom">
         <h1 class="h4">
@@ -80,8 +569,35 @@
 
       <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
     </div>
-
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+    </script>
   </body>
 </html>
